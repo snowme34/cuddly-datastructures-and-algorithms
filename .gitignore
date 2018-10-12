@@ -1,0 +1,39 @@
+## gitignore
+
+.vscode/
+*.xcodeproj
+*.swp
+*.pyc
+*.VC.db
+*.VC.VC.opendb
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.log
+GPATH
+GRTAGS
+GTAGS
+
+# Misc
+*.notice
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+*.class
+*.exe
+*.run
+a.out
+
+# local
+local/
