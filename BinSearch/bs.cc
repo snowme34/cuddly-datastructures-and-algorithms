@@ -9,7 +9,7 @@
 // in range [l, h)
 template <class T>
 int bs(const std::vector<T>& v, T t, int l, int h) {
-  h--; // make invariant hold
+  --h; // make invariant hold
   while(true) { 
     // invariant: t in [l, h] if exist
     if(l > h) return -1;
